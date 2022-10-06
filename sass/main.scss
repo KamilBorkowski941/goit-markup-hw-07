@@ -1,0 +1,20 @@
+@import "./utils/colors";
+@import "./utils/fonts";
+@import "./utils/resets";
+@import "./utils/mixin";
+@import "./components/header";
+@import "./components/index-main";
+@import "./components/footer";
+@import "./components/order";
+@import "./components/portfolio";
+
+body {
+  background-color: $background-page;
+  color: $primary-text;
+  font-size: map-get($font-size, standard);
+  letter-spacing: map-get($letter-spacing, standard);
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
