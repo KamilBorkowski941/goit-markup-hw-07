@@ -41,7 +41,7 @@
     transform: translateY(30px);
     border-radius: 2px;
   }
-  __nav-active {
+  &__nav-active {
     color: $hover-blue;
   }
   &__contact {
